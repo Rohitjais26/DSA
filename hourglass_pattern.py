@@ -1,9 +1,8 @@
-
 # 2D array
 # hourglass pattern
 # bounds
 # Brute force
-# Tracking maximum correctly - 1) inf and -inf, 2) first element of the 2D array
+# Tracking maximum correctly - 1) inf and -inf, 2) first hourglass sum of the 2D array
 def hourglassSum(arr):
     max_sum = float('-inf')  # handles all-negative cases
 
