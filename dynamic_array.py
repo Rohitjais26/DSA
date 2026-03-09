@@ -31,7 +31,7 @@
 
 def dynamicArray(n, queries):
     # Write your code here
-    arr = [[] for _ in range(n)]
+    arr = [[] for _ in range(n)]         # Created an Empty Array
     lastAnswer = 0
     answers = []
 
